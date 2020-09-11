@@ -6,17 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+
+    <!-- Fontes do Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
 
     <title>Smartize Automação Inteligente</title>
   </head>
   <body>
-    <h1>Olá, mundo!</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-shadow">
+      <div class="container">
+        <a class="navbar-brand h1 mb-0" href="#">
+          <img src="images/Logotipo-Smartize.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+        </a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop">
+              Social
+            </a>
+            <div class="dropdown-menu">
+              <a href="https://www.facebook.com/smartize.automacao" class="dropdown-item" alt="@smartize.automacao">Facebook</a>
+              <a href="https://www.instagram.com/smartize_" class="dropdown-item" alt="@smartize_">Instagram</a> 
+              <a href="https://wa.me/send?phone=5519993231581" class="dropdown-item" alt="Entre em contato por WhatsApp">WhatsApp</a> 
+            </div>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    
+
+    <!-- Container -->
+    <div class="container" align="center">
+      
+      <div class="row">
+        <!-- BG fundo -->
+    <img src="/images/bgMarca-d-agua2.svg" alt="Smartize Automação Inteligente" position""="" class="fixPostList img-fluid">
+        <div class="col h1-content">
+          <h1>Oops!</h1>
+          <h2>Ainda estamos em obras.</h2>
+          <p>
+            Mas fique tranquilo que estamos atendendo normalmente. Acesse nossos canais de contato abaixo.
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col">
+          <!-- <button type="button" class="btn btn-light">Saiba Mais!</button> -->
+          <!-- Botão para acionar modal -->
+          <button type="button" class="btn btn-primary border-0" data-toggle="modal" data-target="#modalExemplo">
+            Saiba Mais
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Nosso contato:</h5>
+                  
+                  <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button> -->
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-8">
+                      <span class="modal-nome">Handrey</span>
+                      <address class="modal-address">
+                        <span>
+                          (19) 9 9323 1581
+                        </span>
+                        <br>
+                        <a href="mailto:contato@smartize.life">
+                          contato@smartize.life
+                        </a>
+                        <br>
+                      </address>
+                    </div>
+                    <div class="col-4">
+                      <figure class="figure">
+                        <img src="/images/bg-Small.svg" class="figure-img img-fluid rounded" alt="Imagem do icone da Smartize">
+                      </figure>  
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                  <button type="button" class="btn btn-primary">Salvar mudanças</button>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
   </body>
 </html>
