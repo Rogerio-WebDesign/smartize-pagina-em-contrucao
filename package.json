@@ -1,0 +1,25 @@
+{
+  "name": "smartize-pagina-em-contrucao",
+  "version": "1.0.0",
+  "description": "Smartize Automações Inteligentes, site ainda está sendo desenvolvido, neste momento vamos fazer somente esta página.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rogerio-WebDesign/smartize-pagina-em-contrucao.git"
+  },
+  "author": "Roger Arts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rogerio-WebDesign/smartize-pagina-em-contrucao/issues"
+  },
+  "homepage": "https://github.com/Rogerio-WebDesign/smartize-pagina-em-contrucao#readme"
+}
